@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            {{> image class="button__back" src="../../../../static/images/iconBack.svg" alt="Назад"}}
+        </nav>
+        <main class="profile">
+            {{> profileComponent}}
+            <footer class="profile__buttons">
+                {{> button class="button__save-data" text="Сохранить" type="button"}}
+            </footer>
+        </main>
+    </div>
+    <script type="module" src="./editData.js"></script>
+</body>
+</html>

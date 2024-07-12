@@ -1,0 +1,27 @@
+<header class="profile__avatar">
+    <div>
+        {{> image class="profile__icon" src="../../../../static/images/profileAvatar.svg" alt="Аватарка"}}
+        {{> input name="avatar" type="file" text="Поменять аватар" value="avatar"}}
+    </div>
+    {{> title text="Иван"}}
+</header>
+<form class="profile__info">
+    <div>
+        {{> input name="email" type="email" text="Почта" value="pochta@yandex.ru"}}
+    </div>
+    <div>
+        {{> input name="login" type="text" text="Логин" value="ivanivanov"}}
+    </div>
+    <div>
+        {{> input name="first_name" type="text" text="Имя" value="Иван"}}
+    </div>
+    <div>
+        {{> input name="second_name" type="text" text="Фамилия" value="Иванов"}}
+    </div>
+    <div>
+        {{> input name="display_name" type="text" text="Имя в чате" value="Иван"}}
+    </div>
+    <div>
+        {{> input name="tel" type="phone" text="Телефон" value="7(909)967-30-30"}}
+    </div>
+</form>

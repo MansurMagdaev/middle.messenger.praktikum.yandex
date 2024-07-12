@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            {{> image class="button__back" src="../../../../static/images/iconBack.svg" alt="Назад"}}
+        </nav>
+        <main class="profile">
+            {{> profileComponent}}
+            <footer class="profile__buttons">
+                {{> button class="button__edit-data" text="Изменить данные" type="button"}}
+                {{> button class="button__edit-password" text="Изменить пароль" type="button"}}
+                {{> button class="button__out" text="Выйти" type="button"}}
+            </footer>
+        </main>
+    </div>
+    <script type="module" src="./profile.js"></script>
+</body>
+</html>

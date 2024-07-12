@@ -1,0 +1,13 @@
+@import '../ProfileStyle.scss';
+
+.profile__buttons {
+
+    .button__save-data {
+        @include buttonSave;
+
+        &:hover {
+            @include buttonTransform;
+        }
+    }
+}
+

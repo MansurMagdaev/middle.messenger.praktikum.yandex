@@ -1,0 +1,1 @@
+import './registerStyle.scss';

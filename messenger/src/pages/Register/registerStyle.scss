@@ -1,0 +1,12 @@
+@import '../../styles/mixinsLogin.scss';
+
+.register {
+    @include formsProperty(615px);
+    @include formTitle;
+
+    .register__form {
+        @include flexDirection;
+        @include stylesForms(40px, 0px 15px);
+    }
+    
+}

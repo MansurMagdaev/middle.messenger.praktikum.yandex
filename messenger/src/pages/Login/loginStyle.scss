@@ -1,0 +1,19 @@
+@import '../../styles/mixinsLogin.scss';
+
+.login {
+    @include formsProperty(450px);
+
+    .login__title {
+        @include formTitle;
+    }
+
+    .login__form {
+        @include flexDirection;
+    
+        @include stylesForms(120px, 5px 15px);
+    }
+}
+
+
+
+
