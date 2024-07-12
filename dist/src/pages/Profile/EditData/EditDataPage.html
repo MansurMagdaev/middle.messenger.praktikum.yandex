@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+  <script type="module" crossorigin src="/assets/modulepreload-polyfill-B5Qt9EMX.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/profileEditData-xqzFTDAk.css">
+</head>
+<body>
+    <div class="wrapper">
+        <nav>
+            <img src=data:image/svg+xml,%3csvg%20width='28'%20height='28'%20viewBox='0%200%2028%2028'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3ccircle%20cx='14'%20cy='14'%20r='14'%20transform='rotate(-180%2014%2014)'%20fill='%233369F3'/%3e%3crect%20x='20'%20y='14.8'%20width='11'%20height='1.6'%20transform='rotate(-180%2020%2014.8)'%20fill='white'/%3e%3cpath%20d='M13%2019L9%2014L13%209'%20stroke='white'%20stroke-width='1.6'/%3e%3c/svg%3e class=button__back alt=Назад>        </nav>
+        <main class="profile">
+            <header class="profile__avatar">
+                <div>
+                    <img src=data:image/svg+xml,%3csvg%20width='40'%20height='40'%20viewBox='0%200%2040%2040'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20fill-rule='evenodd'%20clip-rule='evenodd'%20d='M36%202H4C2.89543%202%202%202.89543%202%204V25.2667L14.6547%2022.3139C15.5486%2022.1053%2016.4635%2022%2017.3814%2022H22.6186C23.5365%2022%2024.4514%2022.1053%2025.3453%2022.3139L38%2025.2667V4C38%202.89543%2037.1046%202%2036%202ZM4%200C1.79086%200%200%201.79086%200%204V36C0%2038.2091%201.79086%2040%204%2040H36C38.2091%2040%2040%2038.2091%2040%2036V4C40%201.79086%2038.2091%200%2036%200H4ZM10.9091%2014.5455C12.9174%2014.5455%2014.5455%2012.9174%2014.5455%2010.9091C14.5455%208.90079%2012.9174%207.27273%2010.9091%207.27273C8.90082%207.27273%207.27276%208.90079%207.27276%2010.9091C7.27276%2012.9174%208.90082%2014.5455%2010.9091%2014.5455Z'%20fill='%23CDCDCD'/%3e%3c/svg%3e class=profile__icon alt=Аватарка>        <label for=avatar>Поменять аватар</label>
+                    <input type=file name=avatar value=avatar>    </div>
+                <h1>Иван</h1></header>
+            <form class="profile__info">
+                <div>
+                    <label for=email>Почта</label>
+                    <input type=email name=email value=pochta@yandex.ru>    </div>
+                <div>
+                    <label for=login>Логин</label>
+                    <input type=text name=login value=ivanivanov>    </div>
+                <div>
+                    <label for=first_name>Имя</label>
+                    <input type=text name=first_name value=Иван>    </div>
+                <div>
+                    <label for=second_name>Фамилия</label>
+                    <input type=text name=second_name value=Иванов>    </div>
+                <div>
+                    <label for=display_name>Имя в чате</label>
+                    <input type=text name=display_name value=Иван>    </div>
+                <div>
+                    <label for=tel>Телефон</label>
+                    <input type=phone name=tel value=7(909)967-30-30>    </div>
+            </form>            <footer class="profile__buttons">
+                <button type=button class=button__save-data>Сохранить</button>            </footer>
+        </main>
+    </div>
+</body>
+</html>
