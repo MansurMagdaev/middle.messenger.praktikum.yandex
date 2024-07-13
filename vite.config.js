@@ -9,7 +9,7 @@ export default defineConfig({
     assetsInlineLimit: Number.MAX_SAFE_INTEGER,
     rollupOptions: {
         input: {
-            index: resolve(__dirname, './src/index.html'),
+            index: resolve(__dirname, './index.html'),
             register: resolve(__dirname, './src/pages/Register/RegisterPage.html'),
             login: resolve(__dirname, './src/pages/Login/loginPage.html'),
             404: resolve(__dirname, './src/pages/Error/404/404.html'),
@@ -27,7 +27,7 @@ export default defineConfig({
     })
   ],
   server: {
-    open: '/src/index.html',
+    open: './index.html',
     port: 3000,
   },
 })
