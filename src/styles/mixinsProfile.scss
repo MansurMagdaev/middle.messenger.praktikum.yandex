@@ -1,3 +1,4 @@
+@import './variables.scss';
 
 @mixin flexCenter {
     display: flex;
@@ -16,7 +17,7 @@
     height: 40px;
     display: block;
     margin: 50px auto;
-    background-color: #3369F3;
+    background-color: $colorBlue;
     border-radius: 10px;
     border: 0;
     color: #fff;

@@ -1,4 +1,5 @@
 @import '../ProfileStyle.scss';
+@import '../../../styles/variables.scss';
 
 .profile__buttons {
     display: flex;
@@ -13,7 +14,7 @@
         border-bottom: 1px solid #EAEAEA;
         background-color: #fff;
         text-align: start;
-        color: #3369F3;
+        color: $colorBlue;
         transition: transform 0.5s ease;
 
         &:hover {
@@ -22,6 +23,6 @@
     }
     
     .button__out {
-        color: #FF0000;
+        color: $colorRed;
     }
 }

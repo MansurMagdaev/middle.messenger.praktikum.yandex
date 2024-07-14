@@ -1,3 +1,5 @@
+@import './variables.scss';
+
 @mixin formsProperty($height) {
     margin: 140px auto;
     text-align: center;
@@ -44,7 +46,7 @@
         margin: 0px auto;
         width: 280px;
         height: 37px;
-        background-color: #3369F3;
+        background-color: $colorBlue;
         border: inherit;
         border-radius: 8px;
     }
@@ -61,7 +63,7 @@
     }
     .button-notblue {
         background-color: inherit;
-        color: #3369F3;
+        color: $colorBlue;
         transition: font-size 0.3s ease;
 
         &:hover {
