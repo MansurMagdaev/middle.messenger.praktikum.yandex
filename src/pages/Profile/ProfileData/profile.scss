@@ -1,0 +1,28 @@
+@import '../ProfileStyle.scss';
+@import '../../../styles/variables.scss';
+
+.profile__buttons {
+    display: flex;
+    flex-direction: column;
+    width: 510px;
+    margin: 30px auto;
+
+    button {
+        font-size: 15px;
+        padding: 10px 0;
+        border: 0;
+        border-bottom: 1px solid #EAEAEA;
+        background-color: #fff;
+        text-align: start;
+        color: $colorBlue;
+        transition: transform 0.5s ease;
+
+        &:hover {
+            @include buttonTransform
+        }
+    }
+    
+    .button__out {
+        color: $colorRed;
+    }
+}

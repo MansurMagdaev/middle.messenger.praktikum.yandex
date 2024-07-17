@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+    <main class="register">
+        <header class="register__title">
+            {{> title text="Регистрация"}}
+        </header>
+        <form class="register__form">
+            {{> input type="email" name="email" text="Почта" value="pochta@yandex.ru"}}
+            {{> input type="text" name="login" text="Логин" value="ivanivanov"}}
+            {{> input type="text" name="first_name" text="Имя" value="Иван"}}
+            {{> input type="text" name="second_name" text="Фамилия" value="Иванов"}}
+            {{> input type="tel" name="phone" text="Телефон" value="+7(909)9673030"}}
+            {{> input type="password" name="password" text="Пароль" value="123456789"}}
+            {{> input type="password" name="password" text="Пароль (ещё раз)" value="123456789"}}
+            {{> button type="submit" class="button-blue" text="Зарегистрироваться"}}
+            {{> button type="submit" class="button-notblue" text="Войти"}}
+        </form>
+    </main>
+    <script type="module" src="./register.js"></script>
+</body>
+</html>
